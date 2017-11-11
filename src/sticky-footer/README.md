@@ -3,8 +3,8 @@
 
 
 > ## 效果
-！[效果展示-moretext]（./img/moretext.png）
-！[效果展示-lesstext]（./img/lesstext.png）
+![效果展示-moretext](./img/moretext.png)
+![效果展示-lesstext](./img/lesstext.png)
 
 
 >## HTML代码
