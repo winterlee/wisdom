@@ -1,3 +1,3 @@
 # Training to new comers
 
-- ## sticky footer
+- ## [sticky footer](https://github.com/winterlee/wisdom/tree/master/src/sticky-footer)

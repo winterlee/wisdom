@@ -61,7 +61,6 @@
 - #### 父容器设定padding
 - #### 父容器设定 position:absolute
 - #### 父容器设定 overflow:hidden(推荐)
-- 
 
 ### 参考资料
 - #### [sticky-footer的三种解决方案](http://www.cnblogs.com/shicongbuct/p/6487122.html)
