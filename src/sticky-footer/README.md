@@ -1,13 +1,12 @@
 # sticky footer
+>sticky footer是比较常用的css效果之一。概括如下：如果页面内容不够长的时候，页脚块粘贴在视窗底部；如果内容足够长时，页脚块会被内容向下推送。
 
-
-
-> ## 效果
+### 效果
 ![效果展示-moretext](./img/moretext.png)
 ![效果展示-lesstext](./img/lesstext.png)
 
 
->## HTML代码
+### HTML代码
 
 ```
 <div class="yiyi-sf">
@@ -38,12 +37,12 @@
 	<div class="sf-footer">联系电话:15810817178</div>
 </div>
 ```
-> ## CSS代码
+### CSS代码
 ```
 .yiyi-sf {
     height: 100%;
     .sf-content {
-		overflow: hidden;
+        overflow: hidden;
         width: 80%;
         margin: 0 auto;
         min-height: 100%;
@@ -56,3 +55,17 @@
 }
 
 ```
+
+### 相关基础必备知识 - 父子元件margin重合问题解决办法
+- #### 父容器设定border
+- #### 父容器设定padding
+- #### 父容器设定 position:absolute
+- #### 父容器设定 overflow:hidden(推荐)
+- 
+
+### 参考资料
+- #### [sticky-footer的三种解决方案](http://www.cnblogs.com/shicongbuct/p/6487122.html)
+- #### [CSS秘密花园： Sticky footers](http://www.w3cplus.com/css3/css-secrets/sticky-footers.html)
+
+- #### [Sticky footers解决方案总结](https://segmentfault.com/a/1190000008335329)
+- #### [Sticky Footer 绝对底部的两种套路](https://www.cnblogs.com/wisewrong/p/6525696.html)
