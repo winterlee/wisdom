@@ -1,9 +1,9 @@
-var baseConfig = require('../common/base.config.js');
+var baseConfig = require('../../common/base.config.js');
 
 module.exports = baseConfig({
 	htmlTitle : 'button',
-	htmlFileURL : 'html/love/create/index_v7.html',
-	appDir : 'js/v7/love/create',
-	uglify:true,
+	htmlFileURL : 'html/ui/button.html',
+	appDir : 'js/ui/button/',
+	uglify: true,
 	hash:''
 })

@@ -50,7 +50,7 @@ module.exports = function(paramObj) {
 	obj.output = {
 		filename: hashFileName+'.min.js',
 		path: path.join(staticFileDir, appDir),
-		publicPath: '../' + path.join(appDir , '/')
+		publicPath: '../../' + path.join(appDir , '/')
 	};
 
     obj.resolve = {
